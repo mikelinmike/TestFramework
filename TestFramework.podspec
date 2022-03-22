@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'TestFramework'
-  spec.version      = '1.0.1'
+  spec.version      = '1.0.2'
   spec.summary      = 'Test of TestFramework.'
 
 
