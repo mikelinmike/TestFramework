@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import FitnessDevice
-import PhysData
+//import FitnessDevice
+//import PhysData
 
 open class MikeTest1Framework{
     
@@ -39,6 +39,6 @@ public class MikeTest2Framework{
     }
 }
 
-open class MyDevice: FitnessDevice{
-    
-}
+//open class MyDevice: FitnessDevice{
+//
+//}
