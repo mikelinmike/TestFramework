@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52E5D2FF27E95AEB00993840 /* TestFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 52E5D2FE27E95AEB00993840 /* TestFramework.docc */; };
-		52E5D30027E95AEB00993840 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E5D2FD27E95AEB00993840 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E5D30727E95B8800993840 /* MikeTestFramwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E5D30627E95B8800993840 /* MikeTestFramwork.swift */; };
+		52E5D32727E9A04600993840 /* ShowString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E5D32627E9A04600993840 /* ShowString.swift */; };
 		8506E3E6BF051E66DC12F60E /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA9D3AB3AF88712DE4699F8 /* Pods_TestFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52E5D2FA27E95AEB00993840 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E5D2FD27E95AEB00993840 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
-		52E5D2FE27E95AEB00993840 /* TestFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestFramework.docc; sourceTree = "<group>"; };
 		52E5D30627E95B8800993840 /* MikeTestFramwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikeTestFramwork.swift; sourceTree = "<group>"; };
+		52E5D32627E9A04600993840 /* ShowString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowString.swift; sourceTree = "<group>"; };
 		7F6792480EF7EC4B1B4B7395 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
 		CCA9D3AB3AF88712DE4699F8 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02119ADEB2F0467260D351A /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,9 +62,8 @@
 		52E5D2FC27E95AEB00993840 /* TestFramework */ = {
 			isa = PBXGroup;
 			children = (
-				52E5D2FD27E95AEB00993840 /* TestFramework.h */,
-				52E5D2FE27E95AEB00993840 /* TestFramework.docc */,
 				52E5D30627E95B8800993840 /* MikeTestFramwork.swift */,
+				52E5D32627E9A04600993840 /* ShowString.swift */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -77,7 +74,6 @@
 				D02119ADEB2F0467260D351A /* Pods-TestFramework.debug.xcconfig */,
 				7F6792480EF7EC4B1B4B7395 /* Pods-TestFramework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,7 +84,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E5D30027E95AEB00993840 /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E5D30727E95B8800993840 /* MikeTestFramwork.swift in Sources */,
-				52E5D2FF27E95AEB00993840 /* TestFramework.docc in Sources */,
+				52E5D32727E9A04600993840 /* ShowString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
