@@ -7,9 +7,11 @@
 
 import Foundation
 //import FitnessDevice
-//import PhysData
+//import PhysData  aa
 
 open class MikeTest1Framework{
+    
+    public init(){}
     
     open func test1(){
         print("MikeTest1Framework_test1")
@@ -26,6 +28,9 @@ open class MikeTest1Framework{
 
 
 public class MikeTest2Framework{
+    
+    public init(){}
+
     open func test1(){
         print("MikeTest2Framework_test1")
     }
