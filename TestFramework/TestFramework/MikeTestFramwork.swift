@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import FitnessDevice
 
 open class MikeTest1Framework{
     
@@ -35,4 +36,8 @@ public class MikeTest2Framework{
     internal func test3(){
         print("MikeTest2Framework_test3")
     }
+}
+
+open class MyDevice: FitnessDevice{
+    
 }

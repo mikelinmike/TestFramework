@@ -7,4 +7,8 @@ target 'TestFramework' do
 
   # Pods for TestFramework
 
+  pod 'PhysData', :git => 'git@gitlab.com:wondercise_sys/wondercise-ios-phys-data.git', :branch => 'master'
+  pod 'FitnessDevice', :git => 'git@gitlab.com:wondercise_sys/wondercise-ios-fitness-device.git', :branch => 'master'
+
+
 end

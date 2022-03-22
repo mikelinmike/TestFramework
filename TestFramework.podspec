@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TestFramework"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of TestFramework."
+  spec.summary      = "Test of TestFramework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  TODO: Add long description of the pod here.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/TestFramework"
+  spec.homepage     = "http://github.com/mikelinmike/TestFramework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/mikelinmike/TestFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/mikelinmike/TestFramework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -134,5 +135,8 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
     spec.dependency 'RxSwift', '5.1.1'
+    spec.dependency 'PhysData'
+    spec.dependency 'FitnessDevice'
+
 
 end

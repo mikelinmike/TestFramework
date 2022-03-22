@@ -1,0 +1,6 @@
+framework module FitnessDevice {
+  umbrella header "FitnessDevice-umbrella.h"
+
+  export *
+  module * { export * }
+}
