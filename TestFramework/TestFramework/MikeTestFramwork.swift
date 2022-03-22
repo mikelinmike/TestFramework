@@ -7,6 +7,7 @@
 
 import Foundation
 import FitnessDevice
+import PhysData
 
 open class MikeTest1Framework{
     
