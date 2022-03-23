@@ -1,39 +1,16 @@
 PODS:
-  - FitnessDevice (0.1.0):
-    - PhysData
-    - RxSwift (= 5.1.1)
-  - PhysData (0.1.0)
-  - RxSwift (5.1.1)
+  - RxSwift (6.5.0)
 
 DEPENDENCIES:
-  - "FitnessDevice (from `git@gitlab.com:wondercise_sys/wondercise-ios-fitness-device.git`, branch `master`)"
-  - "PhysData (from `git@gitlab.com:wondercise_sys/wondercise-ios-phys-data.git`, branch `master`)"
+  - RxSwift (= 6.5.0)
 
 SPEC REPOS:
   trunk:
     - RxSwift
 
-EXTERNAL SOURCES:
-  FitnessDevice:
-    :branch: master
-    :git: "git@gitlab.com:wondercise_sys/wondercise-ios-fitness-device.git"
-  PhysData:
-    :branch: master
-    :git: "git@gitlab.com:wondercise_sys/wondercise-ios-phys-data.git"
-
-CHECKOUT OPTIONS:
-  FitnessDevice:
-    :commit: ec0b3969670bfb59cacd5650d152e0c5482ef1dd
-    :git: "git@gitlab.com:wondercise_sys/wondercise-ios-fitness-device.git"
-  PhysData:
-    :commit: 158aa7d13bc94c3c23b3b635e04f152c9083968a
-    :git: "git@gitlab.com:wondercise_sys/wondercise-ios-phys-data.git"
-
 SPEC CHECKSUMS:
-  FitnessDevice: 527d483f415fb2d6b23ac744c7d618020ddb8542
-  PhysData: 08343b326c2a9a411c1198def3b58fe2f0899c87
-  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
 
-PODFILE CHECKSUM: 35290a9d50ffec3446b008bd18de1b1263921674
+PODFILE CHECKSUM: 7128839f436e22494b40e3f8c32379dfe8116fe8
 
 COCOAPODS: 1.11.2

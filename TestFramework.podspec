@@ -31,6 +31,7 @@ Pod::Spec.new do |spec|
    # spec.dependency 'RxSwift', '5.1.1'
     spec.dependency 'PhysData'
     spec.dependency 'FitnessDevice'
+    spec.dependency 'RxSwift', '6.5.0'
 
 
 end

@@ -1,6 +1,0 @@
-framework module PhysData {
-  umbrella header "PhysData-umbrella.h"
-
-  export *
-  module * { export * }
-}
